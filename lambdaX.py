@@ -70,3 +70,4 @@ L = [Alex, Amanda, David]
 
 L.sort(key=lambda x: x.age)
 print([item.name for item in L])
+
