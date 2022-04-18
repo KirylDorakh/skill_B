@@ -81,3 +81,15 @@ test_fun = fun1(4)
 
 print(test_fun(7))
 print(fun1(4)(3))
+
+
+########## свойство замыкания #######
+##### иерархические структуры данных ###
+
+tpl = lambda a, b: (a, b)
+
+a = tpl(3, 4)
+print(a)
+b = tpl(a, 4)
+print(b)
+
