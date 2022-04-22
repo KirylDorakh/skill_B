@@ -23,20 +23,20 @@ print(L)
 
 f2 = lambda x: x * x
 
-print(type(f2))
-print(f2(4))
+print('f2 type:', type(f2))
+print('f2:', f2(4))
 
 ##################
 
 f3 = lambda x, y: x * y
 
-print(f3(2, 3))
+print('f3:', f3(2, 3))
 
 ##################
 
 f4 = lambda: True
 
-print(f4())
+print('f4:', f4())
 
 ##################
 

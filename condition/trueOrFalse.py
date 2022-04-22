@@ -1,5 +1,5 @@
 seq = 0
-list1 = [1, 2 , 3, 4]
+list1 = [1, 2, 3, 4]
 hour = 13
 
 if not seq:

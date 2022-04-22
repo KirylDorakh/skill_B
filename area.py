@@ -6,6 +6,7 @@ def correct_func(name_arg=None):
    name_arg.append(1)
    print("Аргумент после изменения", name_arg)
 
+
 # вызовем два раза одну и ту же функцию
 correct_func()
 print('-----')
