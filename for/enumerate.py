@@ -34,9 +34,8 @@ text = """
 Свои мне сказки говорил.
 """
 
-text = text.lower()
-text = text.replace(" ", "")
-text = text.replace("\n", "")
+text = text.lower().replace(" ", "").replace("\n", "")
+
 print(text)
 
 count = {}  # для подсчета символов и их количества

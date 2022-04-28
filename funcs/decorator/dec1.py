@@ -8,9 +8,12 @@ print(type(hello_world))
 class Hello:
     pass
 
+
 print(type(Hello))
 
+
 ## функция внтури другой функции
+
 
 def wrapper_func():
     def hello_world():

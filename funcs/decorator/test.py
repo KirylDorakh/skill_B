@@ -5,6 +5,7 @@ def dec_func(func):
         print('finish dec')
     return wrapper
 
+
 @dec_func
 def name(str1):
     print(str1)
