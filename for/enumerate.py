@@ -44,6 +44,8 @@ for char in text:
        count[char] += 1
    else:
        count[char] = 1
+
 print(count)
+
 for char, cnt in count.items(): #вывод красиво
    print(f"Символ {char} встречается {cnt} раз")
