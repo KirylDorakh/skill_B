@@ -15,7 +15,7 @@ for a, b in zip(L, M):
     print('a=', a, 'b=', b)
 
 K = [a*b for a, b in zip(L, M)]
-print(K)
+print('K = ', K)
 
 employee_numbers = [2, 9, 18, 28]
 employee_names = ["Дима", "Марина", "Андрей", "Никита"]
